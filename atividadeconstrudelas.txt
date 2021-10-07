@@ -1,0 +1,386 @@
+Aluno1 = prompt("Digite o nome do Aluno")
+Aluno2 = prompt("Digite o nome do Aluno")
+Aluno3 = prompt("Digite o nome do Aluno")
+Aluno4 = prompt("Digite o nome do Aluno")
+Aluno5 = prompt("Digite o nome do Aluno")
+notas1 = prompt("Digite as três notas separadas por vírgula")
+notas1 = notas1.split(",")
+n1 = parseFloat(notas1[0])
+n2 = parseFloat(notas1[1])
+n3 = parseFloat(notas1[2])
+notas2 = prompt("Digite as três notas separadas por vírgula")
+notas2 = notas2.split(",")
+n1 = parseFloat(notas2[0])
+n2 = parseFloat(notas2[1])
+n3 = parseFloat(notas2[2])
+notas3 = prompt("Digite as três notas separadas por vírgula")
+notas3 = notas3.split(",")
+n1 = parseFloat(notas3[0])
+n2 = parseFloat(notas3[1])
+n3 = parseFloat(notas3[2])
+notas4 = prompt("Digite as três notas separadas por vírgula")
+notas4 = notas4.split(",")
+n1 = parseFloat(notas4[0])
+n2 = parseFloat(notas4[1])
+n3 = parseFloat(notas4[2])
+notas5 = prompt("Digite as três notas separadas por vírgula")
+notas5 = notas5.split(",")
+n1 = parseFloat(notas5[0])
+n2 = parseFloat(notas5[1])
+n3 = parseFloat(notas5[2])
+
+
+mediaAluno1 = (n1+n2+n3)/3
+mediaAluno2 = (n1+n2+n3)/3
+mediaAluno3 = (n1+n2+n3)/3
+mediaAluno4 = (n1+n2+n3)/3
+mediaAluno5 = (n1+n2+n3)/3
+
+
+if(mediaAluno1 > 5){
+    alert("A média do aluno" + Aluno1 + " foi: " + mediaAluno1 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno1 + " foi: " + mediaAluno1 + "\nO aluno foi Reprovado!")
+}
+
+if(mediaAluno2 > 5){
+    alert("A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Reprovado!")
+}if(mediaAluno3 > 5){
+    alert("A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Reprovado!")
+}if(mediaAluno4 > 5){
+    alert("A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Reprovado!")
+}if(mediaAluno5 > 5){
+    alert("A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Reprovado!")
+}
+
+undefined
+ 
+
+
+
+
+
+
+
+
+
+
+
+Alunos = prompt("Digite os nomes dos 5 Alunos matriculados, separados por vírgula. Ex: A,B,C")
+Alunos = Alunos.split(",")
+Aluno1 = Alunos[0]
+Alunos2 = Alunos[1]
+Alunos3 = Alunos[2]
+Alunos4 = Alunos[3]
+Alunos5 = Alunos[4]
+
+notas1 = prompt("Digite as três notas separadas por vírgula. Ex: 1,2,3")
+notas1 = notas1.split(",")
+n1 = parseFloat(notas1[0])
+n2 = parseFloat(notas1[1])
+n3 = parseFloat(notas1[2])
+notas2 = prompt("Digite as três notas separadas por vírgula. Ex: 1,2,3")
+notas2 = notas2.split(",")
+n1 = parseFloat(notas2[0])
+n2 = parseFloat(notas2[1])
+n3 = parseFloat(notas2[2])
+notas3 = prompt("Digite as três notas separadas por vírgula. Ex: 1,2,3")
+notas3 = notas3.split(",")
+n1 = parseFloat(notas3[0])
+n2 = parseFloat(notas3[1])
+n3 = parseFloat(notas3[2])
+notas4 = prompt("Digite as três notas separadas por vírgula. Ex: 1,2,3")
+notas4 = notas4.split(",")
+n1 = parseFloat(notas4[0])
+n2 = parseFloat(notas4[1])
+n3 = parseFloat(notas4[2])
+notas5 = prompt("Digite as três notas separadas por vírgula. Ex: 1,2,3")
+notas5 = notas5.split(",")
+n1 = parseFloat(notas5[0])
+n2 = parseFloat(notas5[1])
+n3 = parseFloat(notas5[2])
+
+
+Aprovado = ((n1+n2+n3)/3)>5
+
+if(Aluno1){
+    alert("A média do aluno" + Aluno1 + " foi: " + mediaAluno1 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno1 + " foi: " + mediaAluno1 + "\nO aluno foi Reprovado!")
+}
+
+if(mediaAluno2 > 5){
+    alert("A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Reprovado!")
+}if(mediaAluno3 > 5){
+    alert("A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Reprovado!")
+}if(mediaAluno4 > 5){
+    alert("A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Reprovado!")
+}if(mediaAluno5 > 5){
+    alert("A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Aprovado!")
+}
+else {
+    alert("A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Reprovado!")
+}
+
+
+
+
+
+
+
+
+
+
+
+"A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Aprovado!" +
+            "A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Aprovado!" +
+            "A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Aprovado!" +
+            "A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Aprovado!"
+
+
+ "A média do aluno" + Aluno2 + " foi: " + mediaAluno2 + "\nO aluno foi Reprovado!" +
+            "A média do aluno" + Aluno3 + " foi: " + mediaAluno3 + "\nO aluno foi Reprovado!" +
+            "A média do aluno" + Aluno4 + " foi: " + mediaAluno4 + "\nO aluno foi Reprovado!" +
+            "A média do aluno" + Aluno5 + " foi: " + mediaAluno5 + "\nO aluno foi Reprovado!"
+
+
+
+produto = String(prompt("Digite o produto"))
+qtd = parseInt(prompt ("Digite a quantidade"))
+preco = parseInt(prompt("Qual valor do item:"))
+valor = qtd * preco
+
+if (valor > 100 && valor <= 200){
+    alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.05) + "\nO valor a ser pago é de : " + (valor - valor * 0.05))
+}
+
+else if (valor >200 && valor <=250){
+    alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.1) + "\nO valor a ser pago é de : " + (valor - valor * 0.1))
+}
+else{
+    alert("Não há desconto")
+}
+
+      
+
+undefined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+produto = prompt (str.upper("Selecione o pedido:
+		A - Camiseta
+		B - Vestido
+		C - Bermuda
+		D - Saia
+		S - sair do menu"))
+
+while produto != S{
+qtd = parseFloat(prompt ("Digite a quantidade"))
+for produto == A{
+alert(qtd * 30.00) &&
+produto == B{
+alert(qtd * 50.00) &&
+produto == C{
+alert(qtd * 100) &&
+produto == D{
+alert(qtd * 20.00)
+}
+desconto =[]
+
+if (qtd > 100 && qtd < 200) {
+alert(produto, qtd * 0.05)
+}
+else if (qtd > 201 && qtd < 250){
+alert(produto, preco * 0.1)
+}
+else{
+alert("Não há desconto")
+}
+
+
+
+produto = prompt (str.upper("Selecione o pedido: A - Camiseta B - Vestido C - Bermuda D - Saia S - sair do menu"))
+
+while (produto != S){
+qtd = parseFloat(prompt ("Digite a quantidade"))
+if (produto == A){
+alert(qtd * 30.00) ||
+(produto == B)
+alert(qtd * 50.00) ||
+(produto == C)
+alert(qtd * 100) ||
+(produto == D)
+alert(qtd * 20.00) ||
+(produto == S)
+alert("Fim")
+}
+desconto =[]
+
+if (qtd > 100 && qtd < 200) {
+alert(produto, qtd * 0.05)
+}
+else if (qtd > 201 && qtd < 250){
+alert(produto, preco * 0.1)
+}
+else{
+alert("Não há desconto")
+}
+
+
+
+produto = prompt ("Selecione o pedido: A - Camiseta B - Vestido C - Bermuda D - Saia S - sair do menu").upper
+qtd = parseFloat(prompt ("Digite a quantidade"))
+for (produto in produtos){
+if (produto == A)
+alert(qtd * 30.00) ||
+(produto == B)
+alert(qtd * 50.00) ||
+(produto == C)
+alert(qtd * 100) ||
+(produto == D)
+alert(qtd * 20.00)
+
+if (qtd > 100 && qtd < 200) {
+alert(produto, qtd * 0.05)
+}
+else if (qtd > 201 && qtd < 250){
+alert(produto, preco * 0.1)
+}
+else{
+alert("Não há desconto")
+}
+}
+
+
+
+
+
+
+
+produto = prompt ("Selecione o pedido:", 
+                   A = "Camiseta", 
+                   B = "Vestido", 
+                   C = "Bermuda",
+                   D = "Saia",
+                   S = "sair do menu").upper
+qtd = parseFloat(prompt ("Digite a quantidade"))
+
+if (produto == A){
+valor = qtd * 30.00 ||
+(produto == B)
+valor = qtd * 50.00 ||
+(produto == C)
+valor = qtd * 100 ||
+(produto == D)
+valor = qtd * 20.00 ||
+(produto = S)
+alert("Fim")
+}
+
+if (qtd > 100 && qtd < 200) {
+alert(produto, qtd - (valor * 0.05))
+}
+else if (qtd > 201 && qtd < 250){
+alert(produto, qtd - (valor * 0.1))
+}
+else{
+alert("Não há desconto")
+}
+
+
+
+
+
+
+
+
+
+produto = String(prompt("Selecione o pedido:", 
+                   A = "Camiseta", 
+                   B = "Vestido", 
+                   C = "Bermuda",
+                   D = "Saia",
+                   S = "sair do menu")).upper
+qtd = parseInt(prompt ("Digite a quantidade"))
+preco = parseInt(prompt("Qual valor do item:"))
+valor = qtd * preco
+
+if (valor > 100 && valor <= 200){
+alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.05) + "\nO valor a ser pago é de : " + (valor - valor * 0.05))
+}
+
+if (valor >200 && valor <=250){
+alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.1) + "\nO valor a ser pago é de : " + (valor - valor * 0.1))
+}
+
+
+
+
+
+produto = String(prompt("Digite o produto"))
+qtd = parseInt(prompt ("Digite a quantidade"))
+preco = parseInt(prompt("Qual valor do item:"))
+valor = qtd * preco
+
+if (valor > 100 && valor <= 200){
+alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.05) + "\nO valor a ser pago é de : " + (valor - valor * 0.05))
+}
+
+if (valor >200 && valor <=250){
+alert ("O produto comprado foi : " + produto + "\nO valor de desconto é de : " + (valor * 0.1) + "\nO valor a ser pago é de : " + (valor - valor * 0.1))
+}
+
+      
